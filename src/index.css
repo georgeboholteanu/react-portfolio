@@ -1,81 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 *{
     box-sizing: border-box;
-}
-body {
+    padding: 0;
     margin: 0;
-    background: url("./images/exterior_hero.jpg") no-repeat center fixed;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: auto 3rem;
+    /* background: url("./images/exterior_hero.jpg") no-repeat center fixed; */
+    background: linear-gradient(to bottom right, #38A2D7, #561139);
     overflow: hidden;
     color: white;
-
 }
 
-img.bg {
-    /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
-
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-
-    /* Set up positioning */
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
 
 li:hover {
     color: orange;
 }
 
+.App {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+/* ===== MEDIA QUERIES ===== */
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
     img.bg {
-      left: 50%;
-      margin-left: -512px;   /* 50% */
+
     }
   }
 
-/* .btn {
-    background: linear-gradient(
-      92.23deg,
-      #ff56f6 21.43%,
-      #b936ee 50.63%,
-      #3bace2 100%,
-      #406aff 117.04%
-    );
-    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-  }
-  
-  .btn:hover {
-    background: linear-gradient(
-      92.23deg,
-      #406aff 21.43%,
-      #3bace2 50.63%,
-      #b936ee 100%,
-      #ff56f6 117.04%
-    );
-  }.btn {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+@media screen and (max-width: 480px) {
+    img.bg {
+        
+    }
+    
 }
 
-.btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
-} */

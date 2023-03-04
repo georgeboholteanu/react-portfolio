@@ -1,7 +1,7 @@
 import './App.css';
 import { Home } from './components/Home';
-import { Header } from './components/Header';
-import { Banner } from './components/Banner';
+// import { Header } from './components/Header';
+// import { Banner } from './components/Banner';
 import { About } from './components/About';
 import { Work } from './components/Work';
 import { Contact } from './components/Contact';
@@ -10,16 +10,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    // <div className="bg-site">  
-    //   <Header/>   
-    //   <Banner/>   
-    //   <Nav/>
-    //   <Home/>   
-    //   <About/>   
-    //   <Work/>   
-    //   <Contact/>   
-    //   <div className='h-[4000px]'></div>
-    // </div>
     <Router>
       <div>
         <Nav />
@@ -33,6 +23,7 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
+        
       </div>
     </Router>
   );

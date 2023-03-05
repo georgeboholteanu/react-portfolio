@@ -9,11 +9,12 @@ export const Footer = () => {
     {/* FOOTER SECTION */},
     <footer id='footer' className=' text-center text-neutral-200 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left'>
       <div className='flex items-center justify-center lg:justify-between m-10'>
-        <div className='mr-12 hidden lg:block'>
+        {/* Social media */}
+        <div className='mr-12 hidden md:block lg:block text-center'>
           <span>Get connected on social networks:</span>
         </div>
-        {/* social media links */}
-        <div className='flex justify-center'>
+        {/* icon links */}
+        <div className='flex sm:justify-center sm:block md:block'>
           <NavLink to={'https://www.linkedin.com/'} className='socialIcons text-2xl m-1'>
             <i class="fa-brands fa-instagram"></i>   
           </NavLink>        
@@ -26,7 +27,7 @@ export const Footer = () => {
           </NavLink>        
         </div>
         {/* Nav menu */}
-        <div className='flex-row justify-center'>
+        <div className='flex justify-center'>
           <ul className="list-disc list-inside space-y-2 text-sm">          
             <li>
               <NavLink
@@ -50,12 +51,12 @@ export const Footer = () => {
             </li>
             <li>
               <NavLink
-                to="work" className="hover:text-sky-400 transition"
+                to="gallery" className="hover:text-sky-400 transition"
                 style={({ isActive }) =>
                   isActive ? activeStyle : undefined
                 }
               >
-              Work
+              Gallery
             </NavLink>
             </li>
             <li>

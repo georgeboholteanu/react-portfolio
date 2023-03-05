@@ -27,7 +27,7 @@ export const Nav = () => {
           </ul>
           <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <li>
-              <NavLink to="work" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaDraftingCompass/></NavLink>
+              <NavLink to="gallery" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaDraftingCompass/></NavLink>
             </li>
           </ul>
           <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>

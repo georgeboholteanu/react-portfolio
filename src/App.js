@@ -2,17 +2,18 @@ import './App.css';
 import { Home } from './components/Home';
 import { Nav } from './components/Nav';
 import { About } from './components/About';
-import { Work } from './components/Work';
+import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <div id="nav">
+          <Nav />
+        </div>        
 
         {/* Wrap Route elements in a Routes component */}
         <Routes>
@@ -20,11 +21,14 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="work" element={<Work />} />
+          <Route path="gallery" element={<Gallery />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />          
-        </Routes>             
-        <Footer />
+        </Routes>  
+
+        <div id="footer">       
+          <Footer />
+        </div>
       </div>      
     </Router>
   );

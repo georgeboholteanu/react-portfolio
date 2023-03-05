@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "~react-image-gallery/styles/css/image-gallery.css";
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -13,37 +13,40 @@ html, body {
 }
 
 body {
-    margin: auto 3rem;
+    margin: auto 3rem;  
     /* background: url("./images/exterior_hero.jpg") no-repeat center fixed; */
     background: linear-gradient(to bottom right, #38A2D7, #561139);
-    overflow: hidden;
-    color: white;
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
 }
 
+
+li {
+    list-style: none;
+}
 
 li:hover {
     color: orange;
 }
 
-.App {
-    font-family: sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
+.img-work:hover {
+    transform: scale(0.98);
+    transition: 0.4s;       
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+
+}
 
 /* ===== MEDIA QUERIES ===== */
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
+@media screen and (max-width: 1024px) {
 
-    }
-  }
+}
 
 @media screen and (max-width: 480px) {
-    img.bg {
-        
-    }
-    
+
 }
 

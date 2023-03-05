@@ -1,11 +1,11 @@
 import './App.css';
 import { Home } from './components/Home';
-// import { Header } from './components/Header';
-// import { Banner } from './components/Banner';
+import { Nav } from './components/Nav';
 import { About } from './components/About';
 import { Work } from './components/Work';
+import { Footer } from './components/Footer';
 import { Contact } from './components/Contact';
-import { Nav } from './components/Nav';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div>
         <Nav />
+
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
@@ -21,10 +22,10 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="work" element={<Work />} />
           {/* Define a route that will have descendant routes */}
-          <Route path="contact/*" element={<Contact />} />
-        </Routes>
-        
-      </div>
+          <Route path="contact/*" element={<Contact />} />          
+        </Routes>             
+        <Footer />
+      </div>      
     </Router>
   );
 }

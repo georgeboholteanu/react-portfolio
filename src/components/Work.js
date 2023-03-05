@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
+import Image from './Image';
 
 export const Work = () => {
   return (
@@ -8,10 +8,10 @@ export const Work = () => {
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
         <div className="work-item  ">
           <div className="work-image">
-            <NavLink to='\assets\images\cgi001.jpg'>
-            <img src="\assets\images\cgi001_sml.jpg" className='img-work rounded-xl p-1 h-[280px] w-full object-cover  bg-center' alt="cgi"/>
-              
-            </NavLink>
+            <Image 
+              thumbnailSrc="\assets\images\cgi001_sml.jpg"
+              highresSrc="\assets\images\cgi001.jpg"
+            />
           </div>
         </div>
         <div className="work-item  ">

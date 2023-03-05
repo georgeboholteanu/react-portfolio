@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div>
-    <h1>Contact Page</h1>
+    <section id='contact'>
+    <h2 className='text-black text-center m-10 text-2xl'>Contact Page</h2>
     <p>
       Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
       Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
@@ -15,6 +15,6 @@ export const Contact = () => {
       torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
       Etiam vel condimentum magna, quis tempor nulla.
     </p>
-  </div>
+  </section>
   )
 }

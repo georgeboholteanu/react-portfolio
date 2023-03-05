@@ -2,8 +2,8 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div>
-      <h1>About Page</h1>
+    <section id='about'>
+      <h2 className='text-black text-center m-10 text-2xl'>About Page</h2>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
@@ -11,6 +11,6 @@ export const About = () => {
         semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
         rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </p>
-    </div>
+    </section>
   )
 }

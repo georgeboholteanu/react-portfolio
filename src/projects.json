@@ -1,0 +1,80 @@
+[
+        {
+            "id": 1,
+            "name": "Trivia App",
+            "thumb": "/assets/images/trivia-app.png",
+            "url": "https://github.com/georgeboholteanu/TRIVIA-APP",
+            "type": "dev"
+        },
+        {
+            "id": 2,
+            "name": "Data Visualization",
+            "thumb": "/assets/images/data-visualization.jpg",
+            "url": "https://public.flourish.studio/visualisation/10114978/",
+            "type": "dev"
+        },
+        {
+            "id": 3,
+            "name": "Mexico Airport",
+            "thumb": "/assets/images/cgi001_sml.jpg",
+            "url": "/assets/images/cgi001.jpg",
+            "type": "cgi"
+        },
+        {
+            "id": 4,
+            "name": "Private Villa",
+            "thumb": "/assets/images/cgi002_sml.jpg",
+            "url": "/assets/images/cgi002.jpg",
+            "type": "cgi"
+        },
+        {
+            "id": 5,
+            "name": "Weather Dashboard",
+            "thumb": "/assets/images/weather-dashboard.png",
+            "url": "https://github.com/georgeboholteanu/weather-dashboard",
+            "type": "dev"
+        },
+        {
+            "id": 6,
+            "name": "Portfolio",
+            "thumb": "/assets/images/portfolio-mochup.png",
+            "url": "https://github.com/georgeboholteanu/portfolio-website",
+            "type": "dev"
+        },
+        {
+            "id": 7,
+            "name": "Kings Cross Offices",
+            "thumb": "/assets/images/cgi003_sml.jpg",
+            "url": "/assets/images/cgi003.jpg",
+            "type": "cgi"
+            },
+            {
+            "id": 8,
+            "name": "Berkley Square Offices",
+            "thumb": "/assets/images/cgi004_sml.jpg",
+            "url": "/assets/images/cgi004.jpg",
+            "type": "cgi"
+        },
+        {
+            "id": 9,
+            "name": "Oxford Offices",
+            "thumb": "/assets/images/cgi005_sml.jpg",
+            "url": "/assets/images/cgi005.jpg",
+            "type": "cgi"
+            },
+        {
+            "id": 10,
+            "name": "Quizz App",
+            "thumb": "/assets/images/quiz-app.gif",
+            "url": "https://github.com/georgeboholteanu/Quiz-App",
+            "type": "dev"
+        },
+        {
+            "id": 11,
+            "name": "Daily Planner",
+            "thumb": "/assets/images/daily-planner.gif",
+            "url": "https://github.com/georgeboholteanu/daily-planner",
+            "type": "dev"
+        }
+
+]

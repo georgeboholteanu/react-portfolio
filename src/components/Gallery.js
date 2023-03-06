@@ -5,7 +5,7 @@ export const Gallery = () => {
 
   return (
     <section id="gallery">
-      <h2 className='text-white text-center m-10 lg:text-4xl md:text-3xl sm:text-2xl'>Gallery</h2>
+      <h2 className='m-10 text-4xl tracking-tight font-extrabold text-center text-white dark:text-dark lg:text-4xl md:text-3xl sm:text-2xl'>Gallery</h2>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
           {data.map((project) => (
 

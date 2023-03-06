@@ -16,14 +16,14 @@ export const Footer = () => {
         {/* icon links */}
         <div className='flex sm:justify-center sm:block md:block'>
           <NavLink to={'https://www.linkedin.com/'} className='socialIcons text-2xl m-1'>
-            <i class="fa-brands fa-instagram"></i>   
+            <i className="fa-brands fa-instagram"></i>   
           </NavLink>        
           <NavLink to={'https://www.linkedin.com/in/georgeboholteanu/'} className='socialIcons text-2xl m-1'>
-          <i class="fa-brands fa-linkedin"></i> 
+          <i className="fa-brands fa-linkedin"></i> 
           </NavLink>        
           <NavLink to={'https://github.com/georgeboholteanu'} className='socialIcons text-2xl m-1'>
           
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
           </NavLink>        
         </div>
         {/* Nav menu */}

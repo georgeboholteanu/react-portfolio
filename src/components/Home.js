@@ -7,7 +7,7 @@ export const Home = () => {
         <div>
           {/* <i className='fa fa-apple logo'></i> */}
           <h6 className='text-lg m-1'>Hi, I'm</h6>
-          <h2 className='text-4xl m-1 '> George Boholteanu</h2>
+          <h2 className='text-4xl m-1 '> George</h2>
           <h6 className='text-lg m-1'>Software Developer</h6>
         </div>
         <div className='align-middle text-center m-2 justify-center items-center w-30'>

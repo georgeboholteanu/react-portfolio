@@ -5,7 +5,7 @@ export const Gallery = () => {
 
   return (
     <section id="gallery">
-      <h2 className='text-black text-center m-10 text-2xl'>Gallery</h2>
+      <h2 className='text-white text-center m-10 lg:text-4xl md:text-3xl sm:text-2xl'>Gallery</h2>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
           {data.map((project) => (
 
@@ -24,15 +24,6 @@ export const Gallery = () => {
                 </a>
               </div>
             </div>
-
-            
-            // <div className="work-item  ">
-            //   <div className="work-image" key={project.id}> 
-            //    <a href={project.url} target="_blank" rel="noreferrer">     
-            //     <img src={project.thumb} alt='thumbnail' className='gallery-img object-top rounded-xl p-1 h-[280px] w-full object-cover  bg-center'/>      
-            //     </a>        
-            //   </div>
-            // </div>
           ))} 
       </div>
     </section>

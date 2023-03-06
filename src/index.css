@@ -36,12 +36,13 @@ li:hover {
 }
 
 .gallery-img:hover {
-    transform: scale(0.98);
-    transition: all 0.5s ease;       
-
+    transform: scale(0.97);
+    transition: 0.5s ease-out;       
+    opacity: 0.75;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
 
 }
+
 
 /* ===== MEDIA QUERIES ===== */
 @media screen and (max-width: 1024px) {

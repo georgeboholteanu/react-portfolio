@@ -15,22 +15,22 @@ export const Nav = () => {
               <img className='App-logo' src='./assets/images/gb_logo.png' alt='logo'/>
             </li>
           </ul>
-          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-sky-400'>
             <li>
               <NavLink to="/" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaHome/></NavLink>
             </li>
           </ul>
-          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-sky-400'>
             <li>
-              <NavLink to="about" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaChalkboardTeacher/></NavLink>
+              <NavLink to="about" end className={({isActive}) => isActive ? 'nav-link active hover:text-sky-400' : 'nav-link'}><FaChalkboardTeacher/></NavLink>
             </li>
           </ul>
-          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-sky-400'>
             <li>
               <NavLink to="gallery" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaDraftingCompass/></NavLink>
             </li>
           </ul>
-          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+          <ul className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:text-sky-400'>
             <li>
               <NavLink to="contact" end className={({isActive}) => isActive ? 'nav-link active' : 'nav-link'}><FaEnvelope/></NavLink>
             </li>

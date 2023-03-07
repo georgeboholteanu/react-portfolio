@@ -1,5 +1,5 @@
 import './App.css';
-import { Home } from './components/Home';
+import { Banner } from './components/Banner';
 import { Nav } from './components/Nav';
 import { About } from './components/About';
 import { Gallery } from './components/Gallery';
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Banner />} />
           <Route path="about" element={<About />} />
           <Route path="gallery" element={<Gallery />} />
           {/* Define a route that will have descendant routes */}

@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer id='footer' className='relative bottom-0 text-center text-neutral-200 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left'>
       <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-evenly mt-10'>
         {/* Nav menu */}
-        <div className='mx-10 pt-7 lg:col-span-6 md:col-span-6 sm:col-span-12'>
+        <div className='mx-10 pt-7'>
           <ul className="space-x-5 text-sm flex">          
             <li>
               <NavLink
@@ -58,7 +58,7 @@ export const Footer = () => {
 
     
         {/* icon links */}
-        <div className='flex text-center justify-center mt-5 lg:col-span-6 md:col-span-6 sm:col-span-12'>
+        <div className='flex text-center justify-center mt-5'>
           <span className='text-sm mx-5 pt-2'>Get connected </span>
           <NavLink to={'https://www.linkedin.com/'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400 '>
             <i className="fa-brands fa-instagram"></i>   
@@ -72,7 +72,7 @@ export const Footer = () => {
           </NavLink>        
         </div>
 
-        <div className='flex mx-10 pt-2 justify-center text-center mb-10 col-span-12'>
+        <div className='flex mx-10 pt-2 justify-center mb-10'>
           <i className="fa-regular fa-copyright"></i> 
           <hr className='text-white'/>
           <a href='mailto:george.boholteanu@gmail.com' className='text-sm text-gray-400 mx-2 hover:text-yellow-400'>George Boholteanu</a>

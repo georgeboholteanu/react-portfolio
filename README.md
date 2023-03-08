@@ -2,6 +2,7 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
 React Portfolio App summarizes my current work experience as a web developer using React JS.
 
@@ -11,7 +12,7 @@ React Portfolio App summarizes my current work experience as a web developer usi
 
 The app is a Single Page Application created with JS, HTML and CSS. 
 
-**Frameworks**: REACT, Node JS, Tailwind CSS. 
+**Frameworks**: REACT, Node JS, Tailwind CSS.
 
 &nbsp;
 
@@ -54,7 +55,7 @@ Then, user will be presented with the website in default browser.
 &nbsp;
 **App Demo** 
 
-[<img src="./assets/images/../../public/assets/images/_react-app-mockup_(desktop).png" width="50%">](https://drive.google.com/file/d/16oEwrMbkcP0g4I2lZVqd4LoPwBd9Dl_V/view "Demo")
+[<img src="./assets/images/../../public/assets/images/_react-app-mockup_(desktop).png" width="50%">](https://github.com/georgeboholteanu/react-portfolio "Demo")
 
 &nbsp;
 

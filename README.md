@@ -1,126 +1,86 @@
-# Challenge 13: React Portfolio
+# React Portfolio
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-For this challenge, you will utilize what you have learned in `Module 13: React` to develop the initial scaffolding of your portfolio sites.
+React Portfolio App summarizes my current work experience as a web developer using React JS.
 
-Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site as well as create and/or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+&nbsp;
 
-## Instructions
+## Description
 
-* Students must fullfil the requirements listed in the following sections:
+The app is a Single Page Application created with JS, HTML and CSS. 
 
-### Design
+**Frameworks**: REACT, Node JS, Tailwind CSS. 
 
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
+&nbsp;
 
-* Mobile-first design
+## Table of contents
 
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site.
+- [React Portfolio](#react-portfolio)
+  - [Description](#description)
+  - [Table of contents](#table-of-contents)
+    - [**Installation instructions**](#installation-instructions)
+    - [**Usage**](#usage)
+    - [**License type**](#license-type)
+    - [**Contribution guidelines**](#contribution-guidelines)
+    - [**Testing instructions**](#testing-instructions)
+    - [**Questions**](#questions)
 
-* Make sure the font size is large enough to read and that the colors don't cause eye strain.
+&nbsp;
 
-### Base Requirements
+### **Installation instructions**
 
-* Technologies that must be used:
-  * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
-* Your portfolio **must contain** the following information:
-  * [ ] Your name
-  * [ ] Links to your:
-    * [ ] GitHub Profile
-    * [ ] LinkedIn Page
-    * [ ] Email Address
-    * [ ] Phone Number - (optional)
-    * [ ] PDF version of your resume
-      * Your resume **must** contain up-to-date projects and professional experience
-    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
-      * [ ] Project title
-      * [ ] Link to the deployed version
-      * [ ] Link to the GitHub repository
-      * [ ] GIF or screenshot of the deployed application
+Software requirements:
 
-### Required Components
+- Text editor. [VS Code](https://code.visualstudio.com/) is recommended
+- [Git](https://git-scm.com/downloads)
+- [Node JS](https://nodejs.org/en/download/)
+- All project dependencies can be found in ***package.json***  and can be installed using ***npm install \<module name>***
 
-* At a minium, your portfolio must render these 6 components:
-  1. [ ] App
-  2. [ ] Header
-  4. [ ] Home
-  5. [ ] Project Gallery
-  6. [ ] Project
-  7. [ ] Contact
 
-### Required Component Content
-* [ ] App:
-  * [ ] Must be your top level component and render all necessary children components
-* [ ] Header:
-   * [ ] Must be rendered across the entire site
-   * [ ] Must Contain a Navbar
-* [ ] Project Gallery:
-  * [ ] Must render dynamically 6 instances of the Project component
-    * [ ] Be sure to store your project data in a JSON file and import it into your project
-* [ ] Project:
-   * [ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-   * [ ] Must utilize router props to properly render the right project based on user selection
-   * [ ] Must render the following info:
-     * [ ] Project title
-     * [ ] Link to the deployed version
-     * [ ] Link to the GitHub repository
-     * [ ] GIF or screenshot of the deployed application
-* [ ] Contact:
-  * [ ] Must have contact information
-  * [ ] Have a contact form for handling events
-* [ ] Home:
-  * This should be a welcome landing page that contains:
-     * [ ] Your Name
-     * [ ] A Headshot of you
-     * [ ] Your brand statement
-     * [ ] Some indication that this is your portfolio site
+&nbsp;
 
-### Updated Social Media Presence
-#### LinkedIn
+### **Usage**
 
-* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-* If you do not have a LinkedIn profile, please create one.
-#### GitHub
+The application will be invoked by using the following command:
 
-* Update GitHub profile with pinned repositories featuring those same projects.
+```bash
+npm start
+```
 
-## Grading
+Then, user will be presented with the website in default browser.
 
-This challenge is assessed on the following criteria: 
+&nbsp;
+**App Demo** 
 
-### Technical Acceptance Criteria: 40%
+[<img src="./assets/images/../../public/assets/images/_react-app-mockup_(desktop).png" width="50%">](https://drive.google.com/file/d/16oEwrMbkcP0g4I2lZVqd4LoPwBd9Dl_V/view "Demo")
 
-* Satisfies all of the above acceptance criteria 
+&nbsp;
 
-### Deployment: 32%
+### **License type**
 
-* Application deployed at live URL (if applicable).
+  The application is covered under **MIT** license. More about it can be found here [MIT license info](https://opensource.org/license/mit/).
 
-* Application loads with no errors.
+&nbsp;
 
-* Application GitHub URL submitted (if applicable).
+### **Contribution guidelines**
 
-* GitHub repository that contains application code.
+Contributions are welcomed. Please verify you are submitting well-formed pull requests and open useful issues.
 
-### Application Quality: 15%
+&nbsp;
 
-* User experience is intuitive and easy to navigate.
+### **Testing instructions**
 
-* User interface style is clean and polished.
+Testing can be ran locally after a pull request has been made successfully and required modules have been installed.
 
-* Application uses a color scheme other than the default Bootstrap color palette.
+&nbsp;
 
-### Repository Quality: 13%
+### **Questions**
 
-* Repository has a unique name.
+For any questions or feedback please ping me a message on **[Github](https://github.com/georgeboholteanu)** or send an email at <george.boholteanu@gmail.com>
 
-* Repository follows best practices for file structure and naming conventions.
+&nbsp;
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
 ---
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2023 George Boholteanu. All Rights Reserved.

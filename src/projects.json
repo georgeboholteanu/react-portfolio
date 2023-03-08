@@ -37,7 +37,7 @@
         {
             "id": 6,
             "name": "Portfolio",
-            "thumb": "/assets/images/portfolio-mochup.png",
+            "thumb": "/assets/images/portfolio-app.png",
             "url": "https://github.com/georgeboholteanu/portfolio-website",
             "type": "dev"
         },

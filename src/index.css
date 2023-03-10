@@ -12,8 +12,7 @@ html, body {
     height: 100%;
 }
 
-body {
-    margin: auto 3rem;  
+body {    
     /* background: url("./images/exterior_hero.jpg") no-repeat center fixed; */
     background: linear-gradient(to bottom right, #38A2D7, #561139);
     /* overflow: hidden; */
@@ -22,6 +21,7 @@ body {
     background-attachment: fixed; 
     min-height: 100%;
     font-family: 'Poppins', sans-serif;
+    width: 100%
 }
 
 
@@ -39,14 +39,4 @@ li {
 }
 
 
-/* ===== MEDIA QUERIES ===== */
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 480px) {
-    body {
-        margin: auto 1rem;  
-    }
-}
 

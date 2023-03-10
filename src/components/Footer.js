@@ -8,7 +8,8 @@ export const Footer = () => {
   return (
     {/* FOOTER SECTION */},
     <footer id='footer' className='relative bottom-0 text-center text-neutral-200 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left'>
-      <div className=' grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-evenly sm:mt-10 md:mt-10 lg:mt-20'>
+      <div className=' grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-evenly mt-10 md:mt-10 lg:mt-20'>
+
         {/* Nav menu */}
         <div className='mx-10 pt-7'>
           <ul className="space-x-5 text-sm flex">          
@@ -56,9 +57,8 @@ export const Footer = () => {
           
         </div>
 
-    
         {/* icon links */}
-        <div className='flex text-center justify-center mt-5'>
+        <div className='flex justify-center mt-5'>
           <span className='text-sm mx-5 pt-2'>Get connected </span>
           <NavLink to={'mailto:george.boholteanu@gmail.com'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400 '>
             <i className="fa-solid fa-envelope"></i>   
@@ -73,18 +73,15 @@ export const Footer = () => {
             <i className="fa-brands fa-github"></i>
           </NavLink>        
         </div>
-
-        <div className='flex mx-10 pt-2 justify-center mb-10'>
-          <i className="fa-regular fa-copyright"></i> 
-          <hr className='text-white'/>
-          <NavLink to={'mailto:george.boholteanu@gmail.com'} className='text-sm text-gray-400 mx-2 hover:text-yellow-400'>
-            <span>George Boholteanu</span>
-          </NavLink>
-            
-        </div>
-
-       
+        
+      {/* copyright */}
+      <div className='flex mx-10 pt-2 justify-center mb-10'>
+        <NavLink to={'mailto:george.boholteanu@gmail.com'} className='text-sm text-center text-gray-400 mx-2 hover:text-yellow-400'>
+          <h6 className='text-center'><i className="fa-regular fa-copyright"></i> George Boholteanu</h6>
+        </NavLink>        
       </div>
+      </div>
+
     </footer>
   )
 }

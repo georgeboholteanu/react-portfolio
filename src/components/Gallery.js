@@ -6,7 +6,7 @@ export const Gallery = () => {
   return (
     <section id="gallery">
       <h2 className='m-10 text-4xl tracking-tight font-extrabold text-center text-white dark:text-dark lg:text-4xl md:text-3xl sm:text-2xl'>Gallery</h2>
-      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 px-4">
+      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 px-10">
           {data.map((project) => (
             <div className="max-w-sm bg-gray-300 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" key={project.id}>
               <a href={project.url}>

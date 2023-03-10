@@ -30,12 +30,12 @@ export const About = () => {
     <section id="about">
       <div className="dark:bg-gray-900 ">
         <header>
-          <h2 className="lg:mt-10 mt-10 tracking-tight font-extrabold text-center text-white dark:text-dark lg:text-4xl md:text-3xl text-3xl">
+          <h2 className="lg:mt-10 mt-10 tracking-tight font-extrabold text-center text-white dark:text-dark lg:text-4xl md:text-4xl text-3xl">
             About me
           </h2>
         </header>
 
-        <main className="lg:mt-30 lg:mb-10 md:mb-60 mb-4">
+        <main className="lg:mt-30 lg:mb-10 md:mb-40 mb-4">
           <div className="flex flex-col lg:flex-row md:flex-row items-center justify-center">
             <img
               src="/assets/images/exterior_hero.jpg"
@@ -50,10 +50,10 @@ export const About = () => {
 
         {/* SKILLS */}
         <article className="justify-center mb-10">
-          <h3 className="text-amber-400 text-2xl font-extrabold pt-10 justify-center text-center">
+          <h3 className="text-amber-400 text-2xl font-extrabold pt-10 pb-5 justify-center text-center">
             Technical skills
           </h3>
-          <div className="grid lg:grid-cols-3 lg:gap-2 gap-0 justify-center">
+          <div className="grid lg:grid-cols-3 lg:gap-2 gap-0 md:grid-cols-2 md:gap-0 md:pl-20 justify-center">
             {skills.map((skill) => (
               <SkillBar key={skill.name} {...skill} />
             ))}

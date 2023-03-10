@@ -2,7 +2,7 @@
   
 }
 
-#nav, #hero, #about, #footer {
+#nav, #hero, #about, #contact, #footer {
   display:flex;
   justify-content: center;
 }

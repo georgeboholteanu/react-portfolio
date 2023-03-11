@@ -63,7 +63,7 @@ export const Footer = () => {
           <NavLink to={'mailto:george.boholteanu@gmail.com'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400 '>
             <i className="fa-solid fa-envelope"></i>   
           </NavLink>        
-          <NavLink to={'https://www.linkedin.com/'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400 '>
+          <NavLink to={'https://www.instagram.com/'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400 '>
             <i className="fa-brands fa-instagram"></i>   
           </NavLink>        
           <NavLink to={'https://www.linkedin.com/in/georgeboholteanu/'} className='socialIcons text-yellow-400 text-2xl m-1 hover:text-sky-400'>

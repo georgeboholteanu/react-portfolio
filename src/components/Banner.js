@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export const Banner = () => {
   return (
@@ -9,16 +10,19 @@ export const Banner = () => {
         </div>
 
         <div className='flex justify-center mt-10'>
-          <img src='./assets/images/gb_square.jpg' className='rounded-full w-[250px]' alt='george boholteanu' id="profile-img"></img>
+          <img src='./assets/images/gb_square.jpg' className='rounded-full aspect-auto w-[300px]' alt='george boholteanu' id="profile-img"></img>
         </div>
 
-        <div className='lg:pr-10 flex'>
+        <div className='lg:pr-10 flex justify-start'>
           <div className='justify-center md:pl-20'>
             <h6 className='text-lg m-1 pt-10 md:pt-20 lg:pt-20 text-center text-white'>Hi, I'm</h6>
             <h2 className='m-1 text-5xl tracking-tight font-extrabold text-center text-yellow-400 dark:text-dark '> George</h2>
             <h6 className='text-lg m-1 text-center text-white'>Software Developer</h6>
-            <button href='./assets/gb-resume.pdf' className='mt-10 bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded'>Download CV</button>
-            <button href='mailto:george.boholteanu@gmail.com' className='bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded'>Let's Talk</button>
+
+            <div className='m-10'>
+              <a href='./assets/gb-resume.pdf' className='mt-10 bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded'>Download CV</a>
+              <a href='mailto:george.boholteanu@gmail.com' className='bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded'>Let's Talk</a>
+            </div>
           </div>
         </div>
 

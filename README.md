@@ -4,6 +4,7 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a45059c-427d-45d1-ae58-27bf92179cd8/deploy-status)](https://app.netlify.com/sites/startling-travesseiro-137bee/deploys)
 
 React Portfolio App summarizes my current work experience as a web developer using React JS.
 
@@ -11,9 +12,11 @@ React Portfolio App summarizes my current work experience as a web developer usi
 
 ## Description
 
-The app is a Single Page Application created with JS, HTML and CSS. 
+The app is a Single Page Application created with JS, HTML and CSS.
 
 **Frameworks**: REACT, Node JS, Tailwind CSS.
+
+**Deployment Platform**:  [Netlify URL](https://startling-travesseiro-137bee.netlify.app/)
 
 &nbsp;
 
